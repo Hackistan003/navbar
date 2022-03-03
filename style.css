@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(22, 22, 22);
+}
+
+li,
+a,
+button,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    color: beige;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.LK {
+    cursor: pointer;
+    display: flex;
+    margin-right: auto;
+}
+.listitem li{
+display: inline-block;
+padding: 0rem 1.3rem;
+}
+.listitem li a{
+transition:all 0.5s ease 0s;
+    }
+.listitem li a:hover{
+    color: rgba(0, 204, 255, 0.61);
+}
+        
+button{
+    margin-left: 1rem;
+    padding: 08px;
+    background-color: rgba(0, 204, 255, 0.61);
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+button:hover{
+background-color: azure;
+color: black;
+}
+@media only screen and (max-width: 800px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        background-color: rgb(22, 22, 22);
+        font-size: 1rem;
+    }
+    
+    header {
+       
+        display: flex;
+        flex-direction: column;
+        flex:2;        
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    button{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    button:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+@media only screen and (max-width: 550px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        background-color: rgb(22, 22, 22);
+        font-size: 0.8rem;
+    }
+    
+    header {
+       
+        display: flex;
+        flex-direction: column;
+        flex:2;        
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    button{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    button:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+   
+@media only screen and (max-width: 320px) {
+    * {
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 0%;
+        background-color: rgb(22, 22, 22);
+        font-size: 0.6rem;
+    }
+    
+    header {
+       
+        display: flex;
+        flex-direction: column;
+        flex:2;        
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 2rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    button{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        padding: 11px;
+        background-color: rgba(0, 204, 255, 0.61);
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: all 0.5s ease 0s;
+    }
+    button:hover{
+    background-color: azure;
+    color: black;
+    }
+    .LK {
+        cursor: pointer;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+}
+
+
+}
